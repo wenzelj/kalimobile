@@ -4,13 +4,16 @@
   </div>
 </template>
 
-<script>
-import { Browser } from '@capacitor/browser';
+<script setup>
+import { onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 
-export default {
-  name: 'TheKaliAcademyView',
-  async mounted() {
-    await Browser.open({ url: 'https://member.thekaliacademy.com/login' });
-  }
-}
+const router = useRouter();
+
+const redirectToWebView = () => {
+  const url = 'https://member.thekaliacademy.com/login';
+  router.push({ path: '/webview', query: { url } });
+};
+
+onMounted(redirectToWebView);
 </script>

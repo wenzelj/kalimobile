@@ -18,6 +18,11 @@ const routes = [
     path: '/the-kali-academy',
     name: 'the-kali-academy',
     component: TheKaliAcademyView
+  },
+  {
+    path: '/webview',
+    name: 'webview',
+    component: () => import('../views/WebView.vue')
   }
 ]
 
