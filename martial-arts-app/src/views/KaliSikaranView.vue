@@ -1,6 +1,6 @@
 <template>
-  <div class="kali-in-bali">
-    <h1>Redirecting to Kali in Bali...</h1>
+  <div class="kali-sika-ran">
+    <h1>Redirecting to KaliSikaran...</h1>
   </div>
 </template>
 
@@ -11,7 +11,7 @@ import { useRouter } from 'vue-router';
 const router = useRouter();
 
 const redirectToWebView = () => {
-  const url = 'https://kaliinbali.com/home';
+  const url = 'https://www.kalisikaran.com/';
   router.push({ path: '/webview', query: { url } });
 };
 

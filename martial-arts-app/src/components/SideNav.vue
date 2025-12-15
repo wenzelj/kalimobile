@@ -1,6 +1,7 @@
 <template>
   <nav class="side-nav">
-    <router-link to="/">Home</router-link>
+    <!-- <router-link to="/">Home</router-link> -->
+    <router-link to="/kali-sika-ran">KaliSikaran</router-link>
     <router-link to="/kali-in-bali">Kali In Bali</router-link>
     <router-link to="/the-kali-academy">The Kali Academy</router-link>
   </nav>
