@@ -10,7 +10,7 @@
   "dependencies": {
     "@capacitor/android": "^7.4.4",
     "@capacitor/browser": "^7.0.2",
-    "@capacitor/ios": "^7.4.4",
+    "@capacitor/ios": "^8.0.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue-router": "^4.6.3"
@@ -18,11 +18,12 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "@capacitor/cli": "^7.4.4",
-    "@capacitor/core": "^7.4.4",
+    "@capacitor/cli": "^8.0.0",
+    "@capacitor/core": "^8.0.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "cocoapods": "^0.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3"
   },
