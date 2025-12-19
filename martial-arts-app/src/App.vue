@@ -27,6 +27,11 @@ export default {
     toggleNav() {
       this.isNavOpen = !this.isNavOpen
     }
+  },
+  watch: {
+    '$route'() {
+      this.isNavOpen = false;
+    }
   }
 }
 </script>
